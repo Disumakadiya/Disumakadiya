@@ -17,6 +17,6 @@
 <h2>📈 Github Stats 📈</h2>
 <br>
   
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)&nbsp;&nbsp;&nbsp;&nbsp;  [![Urval’s github stats](https://github-readme-stats.vercel.app/api?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)
+ [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)&nbsp;&nbsp;&nbsp;&nbsp;  [![DISU’s github stats](https://github-readme-stats.vercel.app/api?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)
 
 </div>
