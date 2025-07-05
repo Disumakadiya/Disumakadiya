@@ -20,3 +20,4 @@
  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)&nbsp;&nbsp;&nbsp;&nbsp;  [![DISU’s github stats](https://github-readme-stats.vercel.app/api?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)
 
 </div>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=disumakadiya&theme=radical)](https://git.io/streak-stats)
