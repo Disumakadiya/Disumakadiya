@@ -20,4 +20,4 @@
  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)&nbsp;&nbsp;&nbsp;&nbsp;  [![DISU’s github stats](https://github-readme-stats.vercel.app/api?username=disumakadiya&theme=radical)](https://github.com/disumakadiya)
 
 </div>
-![Data Science Vibes](https://media.giphy.com/media/fAnEC88LccN7a/giphy.gif)
+
