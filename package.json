@@ -4,10 +4,8 @@
   "scripts": {
     "generate": "node scripts/generate.js"
   },
-  "dependencies": {
-    "@octokit/graphql": "^5.0.0",
-    "chart.js": "^4.4.0",
-    "chartjs-node-canvas": "^7.0.0",
-    "canvas": "^2.11.2"
-  }
+"dependencies": {
+  "chartjs-node-canvas": "^4.2.0",
+  "node-fetch": "^3.3.2"
+}
 }
