@@ -8,10 +8,13 @@
 <p align=center>
   <br>
   <h2 align="center">⚡ Contributions ⚡</h2>
-  <br>
-   <img src="https://github-readme-activity-graph.vercel.app/graph?username=disumakadiya&theme=x-code&bg_color=070707&hide_border=true" width="100%"/>
+ 
+   ## ⚡ Contributions (Neon)
+
+<picture>
+  <img alt="Neon contributions" src="https://raw.githubusercontent.com/Disumakadiya/Disumakadiya/output/neon-contributions.png">
+</picture>
    <br>
-   
 </p>
 <div align="center">  
 <h2>📈 Github Stats 📈</h2>
