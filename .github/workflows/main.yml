@@ -2,11 +2,11 @@ name: Generate Pac-Man Game and Neon Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:      # Allows manual run
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches:
-      - main               # Runs when pushing to main
+      - main
 
 jobs:
   generate:
@@ -16,31 +16,23 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # STEP 1 — Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # STEP 2 — Pac-Man Contribution Graph
-      - name: Generate Pac-Man Graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: Disumakadiya
-
-      # STEP 3 — Neon Bar Graph Setup
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: 18
 
       - name: Install dependencies
         run: |
-          npm install chart.js chartjs-node-canvas chartjs-plugin-gradient node-fetch
+          npm install @abozanona/pacman-contribution-graph chartjs-node-canvas node-fetch@3
 
-      - name: Generate Neon Bar Graph
-        run: |
-          node scripts/generate-neon-graph.js
+      - name: Run merged graph generator
+        run: node scripts/generate-graphs.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # STEP 4 — Push both outputs to output branch
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
